@@ -1,2 +1,24 @@
 @import './base.css';
 
+.main {
+  padding: 150px;
+}
+
+.main__heading {
+  font-size: 128px;
+  font-weight: bold;
+}
+.main__sub-heading {
+  font-size: 40px;
+}
+.button-container {
+  display: flex;
+  margin-top: 100px;
+}
+/* Space between buttons, with margin, save for the second button */
+.button:not(button:last-of-type) {
+  margin-inline-end: 20px;
+}
+.button__icon {
+  vertical-align: middle;
+}
