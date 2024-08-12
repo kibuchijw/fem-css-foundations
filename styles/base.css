@@ -17,9 +17,20 @@ a {
   text-decoration: inherit;
 }
 body {
+  font-family: var(--font-family);
   background-color: var(--color-primary);
   color: var(--color-text-on-primary);
-  font-family: var(--font-family);
+}
+.main {
+  padding: 150px;
+}
+.body--primary {
+  background-color: var(--color-primary);
+  color: var(--color-text-on-primary);
+}
+.body--secondary {
+  background-color: var(--color-text-on-primary);
+  color: var(--color-primary);
 }
 p {
   margin: 0;
